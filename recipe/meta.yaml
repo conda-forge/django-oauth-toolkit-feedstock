@@ -1,5 +1,5 @@
 {% set name = "django-oauth-toolkit" %}
-{% set version = "3.0.1" %}
+{% set version = "3.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 7200e4a9fb229b145a6d808cbf0423b6d69a87f68557437733eec3c0cf71db02
+  sha256: d5a59d07588cfefa8818e99d65040a252eb2ede22512483e2240c91d0b885c8e
 
 build:
   noarch: python
